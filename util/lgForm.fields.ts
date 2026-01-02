@@ -1,0 +1,56 @@
+export const lgFields = [
+  { name: "age", label: "Age", type: "number" },
+  { name: "alcohol_consumption_per_week", label: "Alcohol / Week", type: "number" },
+  { name: "physical_activity_minutes_per_week", label: "Activity (min/week)", type: "number" },
+  { name: "diet_score", label: "Diet Score (0–10)", type: "number" },
+  { name: "sleep_hours_per_day", label: "Sleep (hrs/day)", type: "number" },
+  { name: "screen_time_hours_per_day", label: "Screen Time (hrs/day)", type: "number" },
+  { name: "bmi", label: "BMI", type: "number" },
+  { name: "systolic_bp", label: "Systolic BP", type: "number" },
+  { name: "diastolic_bp", label: "Diastolic BP", type: "number" },
+  { name: "heart_rate", label: "Heart Rate", type: "number" },
+  { name: "cholesterol_total", label: "Total Cholesterol", type: "number" },
+  { name: "hdl_cholesterol", label: "HDL Cholesterol", type: "number" },
+  { name: "triglycerides", label: "Triglycerides", type: "number" },
+
+  {
+    name: "gender",
+    label: "Gender",
+    type: "select",
+    options: ["Female", "Male", "Other"],
+  },
+  {
+    name: "ethnicity",
+    label: "Ethnicity",
+    type: "select",
+    options: ["White", "Hispanic", "Black", "Asian", "Other"],
+  },
+  {
+    name: "education_level",
+    label: "Education Level",
+    type: "select",
+    options: ["Highschool", "Graduate", "Postgraduate", "No formal"],
+  },
+  {
+    name: "income_level",
+    label: "Income Level",
+    type: "select",
+    options: ["Low", "Lower-Middle", "Middle", "Upper-Middle", "High"],
+  },
+  {
+    name: "smoking_status",
+    label: "Smoking Status",
+    type: "select",
+    options: ["Never", "Former", "Current"],
+  },
+  {
+    name: "employment_status",
+    label: "Employment Status",
+    type: "select",
+    options: ["Employed", "Retired", "Unemployed", "Student"],
+  },
+
+  { name: "family_history_diabetes", label: "Family History of Diabetes", type: "binary" },
+  { name: "hypertension_history", label: "Hypertension History", type: "binary" },
+  { name: "cardiovascular_history", label: "Cardiovascular History", type: "binary" },
+] as const;
